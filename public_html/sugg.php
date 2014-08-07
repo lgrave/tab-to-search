@@ -15,4 +15,4 @@ if (isset($_GET['q'])) {
 }
 
 header('Content-type: application/json');
-return json_encode($result);
+echo json_encode($result);
