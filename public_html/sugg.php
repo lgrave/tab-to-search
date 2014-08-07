@@ -8,9 +8,9 @@ if (isset($_GET['q'])) {
 
 	$result = array(
 		$q,
-		array("$q 1", "$q 2", "$q 3");
-		array("info 1", "info 2", "info 3");
-		array("/index.php?q=1", "/index.php?q=2", "/index.php?q=3");
+		array("$q 1", "$q 2", "$q 3"),
+		array("info 1", "info 2", "info 3"),
+		array("/index.php?q=1", "/index.php?q=2", "/index.php?q=3"),
 	);
 }
 
